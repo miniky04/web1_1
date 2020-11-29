@@ -17,12 +17,10 @@
         <property name="driverClassName"
             value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"></property>
         <property name="url"
-            value="jdbc:mariadb://127.0.0.1:3306/theater" />
-        <property name="username" value="root" />
-        <property name="password" value="miniky04" />
+            value="jdbc:log4jdbc:mariadb://127.0.0.1:3306/theater" />
+        <property name="username" value="whj" />
+        <property name="password" value="hello1234" />
     </bean>
- 
- 	
  
     <bean id="sqlSessionFactory"
         class="org.mybatis.spring.SqlSessionFactoryBean">
