@@ -35,7 +35,6 @@ public class HomeController {
         logger.info("home");
         
         List<MovieVO> movieList = service.selectMovie();
-        
         model.addAttribute("movieList", movieList);
  
         return "home";
